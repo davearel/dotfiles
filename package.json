@@ -1,0 +1,16 @@
+{
+  "name": "dotfiles",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/davearel/dotfiles",
+  "author": "Dave Arel <davearel@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "zx src/index.mjs"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4",
+    "zx": "^7.1.0"
+  }
+}

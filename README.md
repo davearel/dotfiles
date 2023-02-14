@@ -1,6 +1,3 @@
-# DotFiles
-:doughnut: Personal Dotfiles
+# Dot files
 
-Used in conjunction with :computer: [mbpro-vision](https://github.com/davearel/mbpro-vision.git) macOS development environment setup. See that README.md for setup instructions.
-
-----
+:doughnut: Personal dot files
