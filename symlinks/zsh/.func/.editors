@@ -1,0 +1,19 @@
+# `s` with no arguments opens the current directory in Sublime Text, otherwise
+# opens the given location
+function vs() {
+  if [ $# -eq 0 ]; then
+    code .
+  else
+    code "$@"
+  fi
+}
+
+# `v` with no arguments opens the current directory in Vim, otherwise opens the
+# given location
+function v() {
+  if [ $# -eq 0 ]; then
+    vim .
+  else
+    vim "$@"
+  fi
+}
